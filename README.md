@@ -8,5 +8,5 @@
 1. `$ pip install -r requirements.txt`
 
 ### Development
-1. Watch files for changes with `$ pelican -t theme -r`
+1. Watch files for changes with `$ pelican -r`
 1. Run the server with `$ make serve`
