@@ -1,4 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
-THIS IS CONTENT
+
+{% for article in articles_page.object_list %}
+    <article class="front-page-article">
+        <h3><a href="/{{ article.slug }}">{{ article.title }}</a></h3>
+        {{ article.summary }}
+        {{ article.body }}
+    </article>
+{% endfor %}
+
 {% endblock %}
