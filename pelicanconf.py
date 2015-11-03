@@ -8,7 +8,7 @@ SITEURL = 'http://patallen.me'
 
 THEME = 'theme'
 
-PATH = 'content/blog'
+PATH = 'content'
 # PROJECTS_PATH = 'content/projects' # We will use this for ProjectsGenerator
 
 TIMEZONE = 'America/New_York'
