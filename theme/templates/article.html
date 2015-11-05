@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
 <h2>{{ article.title}}</h2>
-{{ article.date.strftime('%b %d, %Y') }} 
+{{ article.date.strftime('%b %d, %Y') }}
 {% if article.tags %}
     {% for tag in article.tags %}
-    <a href="{{ tag.url }}">{{ tag }}</a> 
+    <a href="{{ tag.url }}">{{ tag }}</a>
     {% endfor %}
 {% endif %}
 <article class="content">
