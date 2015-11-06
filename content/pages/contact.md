@@ -1,6 +1,5 @@
 Title: Contact
 Author: Patrick Allen
-Url: contact
 Slug: contact
 
 ## Contact Me

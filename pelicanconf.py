@@ -6,7 +6,7 @@ AUTHOR = 'Patrick Allen'
 SITENAME = 'patallen.me'
 SITEURL = 'http://patallen.me'
 
-
+PAGE_URL = 'pages/{slug}'
 THEME = 'theme'
 
 PATH = 'content'

@@ -1,6 +1,5 @@
 Title: About Me
 Author: Patrick Allen
-Url: about/
 Slug: about
 
 ## About Me
