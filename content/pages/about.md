@@ -1,6 +1,8 @@
 Title: About Me
 Author: Patrick Allen
 Slug: about
+Url: about
+Save_as: about.html
 
 ## About Me
 Young, motivated, fullstack web developer.
