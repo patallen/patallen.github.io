@@ -10,11 +10,18 @@
             <div class="brand">
                 <a href="/">Pat Allen</a>
             </div>
+            <!--
             <ul class="navbar">
                 <li><a href="/">HOME</a></li>
                 <li><a href="/contact">CONTACT</a></li>
                 <li><a href="">PORTFOLIO</a></li>
                 <li><a href="">BLOG</a></li>
+            </ul>
+            -->
+            <ul class="navbar">
+            {% for page in PAGES %}
+            <li><a href="{{ page.url }}">{{ page.title.upper() }}</a></li>
+            {% endfor %}
             </ul>
         </header>
         {% block content %}
