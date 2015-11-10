@@ -4,12 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Patrick Allen'
 SITENAME = 'patallen.me'
-SITEURL = 'http://patallen.me'
+SITEURL = '/blog'
 
 PAGE_URL = 'pages/{slug}'
 THEME = 'theme'
 
 PATH = 'content'
+OUTPUT_PATH = 'output/blog'
 # PROJECTS_PATH = 'content/projects' # We will use this for ProjectsGenerator
 
 TIMEZONE = 'America/New_York'
