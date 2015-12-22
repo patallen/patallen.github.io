@@ -31,6 +31,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 4
-
+DEFAULT_DATE_FORMAT = '%b %d, %Y'
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
